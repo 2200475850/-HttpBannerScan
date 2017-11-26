@@ -1,69 +1,229 @@
-<html xmlns="http://www.w3.org/1999/xhtml"><head>
-  <title>Fategroup</title><meta name="keywords" content="fategroup,命运小组，计算机应用基础二班">
-<meta name="description" content="Fategroup，创建于2017年5月01日，专注计算机网络应用基础，官方QQ群：637073432 ---欢迎你的加入！">
-<link type="text/css" rel="stylesheet" href="css/index.css">
-<link href="http://www.qmaile.com/bootstrap.min.css" rel="stylesheet">
-  <link href="http://www.qmaile.com/stylee.css" type="text/css" rel="stylesheet">
-<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
-<script type="text/javascript" src="js/jquery.corner.js"></script>
-<script type="text/javascript" src="js/jquery.roundabout.js"></script>
-<script type="text/javascript" src="js/jquery.roundabout-shapes.js"></script>
-<script type="text/javascript" src="js/index.js"></script>
-<script></script></head>
-<body background="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2599887887,3952920600&amp;fm=27&amp;gp=0.jpg" style="background-repeat:no-repeat; 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="fategroup,命运小组，计算机应用基础二班">
+ 
+    <meta name="description" content="Fategroup，创建于2017年5月01日，专注计算机网络应用基础，官方QQ群：637073432 ---欢迎你的加入！">
+    <title>Fategroup</title>
+    <link href="yx/favicon.ico" rel="shortcut icon" />
+  
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link href="http://www.qmaile.com/bootstrap.min.css" rel="stylesheet">
+    <link href="http://www.qmaile.com/stylee.css" type="text/css" rel="stylesheet">
+    <style>
+   
 
-background-size:100% 100%; background-attachment: fixed;">
+.pc-banner {
+	background: url(https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2599887887,3952920600&amp;fm=27&amp;gp=0.jpg) no-repeat center top/100% auto;
+	width: 100%;
+	float: left;
+}
 
-<div id="header">
-<div id="gla">
-	<div id="gla_box">
-    	<ul class="roundabout-holder" style="padding: 0px; position: relative;">
-        	<li class="roundabout-moveable-item roundabout-in-focus" style="position: absolute; left: 97px; top: 54px; width: 500px; height: 292px; opacity: 1; z-
+@media screen and (max-width: 668px) {
+	.pc-banner {
+		background-size: auto 100%;
+	}
+}
 
-index: 280; font-size: 12px;">
-            	<div class="gla_inbox" style="border-radius: 8px;">
-                    <img src="images/01.jpg">
-                </div>
-            </li>
-            
-        	<li class="roundabout-moveable-item" style="position: absolute; left: -37px; top: 84px; width: 396.35px; height: 231.468px; opacity: 1; z-index: 218; 
+.swiper-container {
+	width: 100%;
+	margin: 35px 0;
+}
 
-font-size: 9.5px;">
-            	<div class="gla_inbox" style="border-radius: 8px;">
-                    <img src="images/02.jpg">
-                </div>
-            </li>
-            
-        	<li class="roundabout-moveable-item" style="position: absolute; left: 532px; top: 133px; width: 228.65px; height: 133.532px; opacity: 1; z-index: 117; 
+@media screen and (max-width: 668px) {
+	.swiper-container {
+		margin: 20px 0 15px;
+	}
+}
 
-font-size: 5.5px;">
-            	<div class="gla_inbox" style="border-radius: 8px;">
-                    <img src="images/03.jpg">
-                </div>
-            </li>
-            
-        	<li class="roundabout-moveable-item" style="position: absolute; left: -67px; top: 133px; width: 228.65px; height: 133.532px; opacity: 1; z-index: 117; 
+.swiper-slide {
+	-webkit-transition: transform 1.0s;
+	-moz-transition: transform 1.0s;
+	-ms-transition: transform 1.0s;
+	-o-transition: transform 1.0s;
+	-webkit-transform: scale(0.7);
+	transform: scale(0.7);
+}
 
-font-size: 5.5px;">
-            	<div class="gla_inbox" style="border-radius: 8px;">
-                    <img src="images/04.jpg">
-                </div>
-            </li>
-            
-        	<li class="roundabout-moveable-item" style="position: absolute; left: 333px; top: 84px; width: 396.35px; height: 231.468px; opacity: 1; z-index: 218; 
+@media screen and (max-width: 668px) {
+	.swiper-slide {
+		-webkit-transform: scale(0.97);
+		transform: scale(0.97);
+	}
+}
 
-font-size: 9.5px;">
-            	<div class="gla_inbox" style="border-radius: 8px;">
-                    <img src="images/05.jpg">
-                </div>
-            </li>
-            
-        </ul>
+.swiper-slide-active,.swiper-slide-duplicate-active {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+@media screen and (max-width: 668px) {
+	.swiper-slide-active,.swiper-slide-duplicate-active {
+		-webkit-transform: scale(0.97);
+		transform: scale(0.97);
+	}
+}
+
+.none-effect {
+	-webkit-transition: none;
+	-moz-transition: none;
+	-ms-transition: none;
+	-o-transition: none;
+}
+
+.swiper-slide a {
+	background: #fff;
+	padding:10px;
+	display: block;
+	border-radius: 14px;
+}
+
+@media screen and (min-width: 668px) {
+	.swiper-slide a:after {
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: block;
+		box-sizing: border-box;
+		border: 10px solid #fff;
+		content: "";
+		width: 100%;
+		height: 100%;
+		background: url(images/top_slick_cover_bg01.png) 0 0 repeat;
+		border-radius: 20px;
+	}
+}
+
+.swiper-slide-active a:after {
+	background: none;
+}
+
+@media screen and (max-width: 668px) {
+	.swiper-slide a {
+		padding: 5px;
+		border-radius: 7px;
+	}
+}
+
+.swiper-slide img {
+	width: 100%;
+	border-radius: 14px;
+	display: block;
+}
+
+@media screen and (max-width: 668px) {
+	.swiper-slide img {
+		border-radius: 7px;
+	}
+}
+
+.swiper-pagination {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.swiper-pagination-bullet {
+	background: #00a0e9;
+	margin-left: 4px;
+	margin-right: 4px;
+	width: 17px;
+	height: 17px;
+	opacity: 1;
+	margin-bottom: 4px;
+}
+
+.swiper-pagination-bullet-active {
+	width: 13px;
+	height: 13px;
+	background: #FFF;
+	border: 6px solid #00a0e9;
+	margin-bottom: 0;
+}
+
+@media screen and (max-width: 668px) {
+	
+	.swiper-pagination {
+		position: relative;
+		margin-bottom: 20px;
+	}
+
+	.swiper-pagination-bullet {
+		background: #00a0e9;
+		margin-left: 2px;
+		margin-right: 2px;
+		width: 8px;
+		height: 8px;
+		margin-bottom: 2px;
+	}
+
+	.swiper-pagination-bullet-active {
+		width: 6px;
+		height: 6px;
+		background: #FFF;
+		border: 3px solid #00a0e9;
+		margin-bottom: 0;
+	}
+}
+
+.button {
+	width: 1000px;
+	margin: 0 auto;
+	bottom: 43px;
+	position: relative;
+}
+
+@media screen and (max-width: 668px) {
+	.button {
+		width: 70%;
+		bottom: 22px;
+	}
+}
+
+.button div:hover {
+	background-color: #2f4798;
+}
+
+.swiper-button-prev {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l4.2%2C4.2L8.4%2C22l17.8%2C17.8L22%2C44L0%2C22z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E") #00a0e9 center 50%/50% 50% no-repeat;
+}
+
+.swiper-button-next {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L5%2C44l-4.2-4.2L18.6%2C22L0.8%2C4.2L5%2C0z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E") #00a0e9 center 50%/50% 50% no-repeat;
+}
+
+@media screen and (max-width: 668px) {
+	.button div {
+		width: 28px;
+		height: 28px;
+	}
+}	
+	
+    </style>
+</head>
+<body background="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2599887887,3952920600&amp;fm=27&amp;gp=0.jpg" style="background-repeat:no-repeat;background-size:100% 100%; background-attachment: fixed;">
+    <!-- Swiper -->
+ <section class="pc-banner">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide swiper-slide-center none-effect"><a href="#"><img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3087141474,2570402326&fm=27&gp=0.jpg" ></a></div>
+            <div class="swiper-slide"><a href="#"><img src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3175175044,527045544&fm=27&gp=0.jpg" ></a></div>
+            <div class="swiper-slide"><a href="#"><img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3172126236,1392220753&fm=27&gp=0.jpg" ></a></div>
+            <div class="swiper-slide"><a href="#"><img src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=980494232,408759419&fm=27&gp=0.jpg" ></a></div>
+            <div class="swiper-slide"><a href="#"><img src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3236431401,3255496188&fm=27&gp=0.jpg" ></a></div>
+        </div>
     </div>
-</div>
+    <div class="swiper-pagination"></div>
+	<div class="button">
+     <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div></div>
 
-
-<br><br>
 <div class="col-md-14 column">
     <div class="panel panel-default">
      <div id="kj" class="panel-body">
@@ -104,4 +264,39 @@ font-size: 9.5px;">
 <div style="width: 100%; height: auto; line-height: 25px; text-align: center;">
 	版权所有：<a href="http://www.fategroup。top"><b>Fategroup</b></a>,欢迎加入FtaegroupQQ交流群：637073432
 </div>
-</body></html>
+
+
+</section>
+    <!-- Swiper JS -->
+    <script src="js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+	window.onload = function() {
+    var swiper = new Swiper('.swiper-container',{
+		autoplay:3000,
+		speed:1000,
+		autoplayDisableOnInteraction : false,
+		loop:true,
+		centeredSlides : true,
+		slidesPerView:2,
+        pagination : '.swiper-pagination',
+		paginationClickable:true,
+		prevButton:'.swiper-button-prev',
+        nextButton:'.swiper-button-next',
+		onInit:function(swiper){
+			swiper.slides[2].className="swiper-slide swiper-slide-active";//第一次打开不要动画
+			},
+        breakpoints: { 
+                668: {
+                    slidesPerView: 1,
+                 }
+            }
+		});
+		}
+    </script>
+
+
+
+</body>
+</html>
